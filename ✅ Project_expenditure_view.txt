@@ -1,0 +1,41 @@
+✅ Project Task List: CSV Viewer via Google Sheets
+🏗️ Setup & Planning
+[ ] Decide on repository name (e.g., institution-data-portal)
+
+[ ] Rename GitHub repository to match institution branding
+
+[ ] Create a Google Sheet for data uploads
+
+[ ] Share the Sheet with trusted users (Editor access)
+
+🧩 Google Sheets Integration
+[ ] Publish the Sheet to the web as CSV
+
+[ ] Copy the CSV URL for use in your site
+
+[ ] Test the CSV link in browser to confirm accessibility
+
+🌐 GitHub Pages Frontend
+[ ] Create HTML page to fetch and display CSV
+
+[ ] Use PapaParse to parse CSV data
+
+[ ] Render data as a table or chart
+
+[ ] Style the page using TailwindCSS or custom CSS
+
+[ ] Push changes to GitHub and verify on GitHub Pages
+
+🌍 Custom Domain (Optional)
+[ ] Buy or configure domain (e.g., data.institution.edu)
+
+[ ] Add CNAME file to repo with custom domain
+
+[ ] Update DNS records to point to GitHub Pages
+
+🔒 Access & Maintenance
+[ ] Document instructions for data editors
+
+[ ] Set up version control for the Google Sheet (optional)
+
+[ ] Monitor updates and test data rendering regularly
