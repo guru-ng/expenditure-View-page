@@ -4,7 +4,7 @@ Papa.parse(url, {
     header:true,
     complete: function(results){
         const data = results.data;
-        const container  = document.getElementById('table-container');
+        const container  = document.getElementById('expenditure-data');
         if(data.length === 0){
             container.innerHTML = '<p>No data available.</p>';
             return;

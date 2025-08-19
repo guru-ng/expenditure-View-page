@@ -10,9 +10,34 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Expenditure Data</h1>
-    <div id="table-container">
-  <div class="animate-spin h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full mx-auto"></div>
-</div>   
+  <h1>Expenditure Data</h1>
+    <nav class="bg-blue-600 text-white p-4">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center">
+        <h1 class="text-xl font-bold mb-2 md:mb-0">Kansai Gurung Samaj</h1>
+        <ul class="flex flex-col md:flex-row md:space-x-6">
+          <li><a href="#expenditure-data" class="hover:underline">Expenses Detail</a></li>
+          <li><a href="about.html" class="hover:underline">Events</a></li>
+          <li><a href="contact.html" class="hover:underline">Members</a></li>
+        </ul>
+      </div>
+    </nav>
+  <h1 class="text-xl font-bold">Expenditure Viewer</h1>
+  <div class="dropdown" type="">
+    <select value="">
+      <option name="" id="">Jan</option>
+      <option name="" id="">feb</option>
+      <option name="" id="">Mar</option>
+      <option name="" id="">June</option>
+      <option name="" id="">july</option>
+      <option name="" id="">Aug</option>
+      <option name="" id="">Sept</option>
+      <option name="" id="">Oct</option>
+      <option name="" id="">Nov</option>
+      <option name="" id="">Dec</option>
+    </select>
+  </div>
+  <div id="expenditure-data">
+    <div class="animate-spin h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full mx-auto"></div>
+  </div>   
 </body>
 </html>
